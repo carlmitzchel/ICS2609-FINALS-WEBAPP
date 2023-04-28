@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+:root {
+  /* Text Variables */
+  --font-heading: "Crete Round", sans-serif;
+  --font-caption: "Poppins", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero {
+  max-width: 550px;
+  height: auto;
+  margin-left: -40px;
+  margin-right: auto;
+  display: block;
+}
+
+h1 {
+  font-family: "Crete Round", serif;
+  font-style: italic;
+  color: #99c2a2;
+}
+
+h2,
+p {
+  font-family: "Poppins", serif;
+}
+
+h2 {
+  color: #99c2a2;
+}
+
+p {
+  color: #7a918d;
+}
+
+.left {
+  height: 100vh;
+  background-color: #f9f9f3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  width: 35%;
+  padding-left: 100px;
+}
+
+.right {
+  height: 100vh;
+  background-color: #fbfbfb;
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  text-align: left;
+}
+
+.login-form {
+  width: 450px;
+}
+
+.form-item label:not(.checkboxLabel) {
+  display: inline-block;
+  font-family: "Poppins", serif;
+}
+
+.form-item:focus {
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+input[type="text"],
+input[type="password"] {
+  border-style: solid;
+  border: none;
+  background-color: #f4f4f4;
+  outline: none;
+  border-radius: 15px;
+  height: 55px;
+  padding: 0 2rem;
+  width: 100%;
+  transition: background 0.5s;
+  font-size: 14px;
+}
+
+.login-header {
+  margin-bottom: 50px;
+}
+
+.login-form-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 30px;
+  margin-top: 10px;
+}
+
+.login-form-footer a {
+  border: 1px solid #f4f4f4;
+  border-radius: 15px;
+  padding: 0.6rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  margin: 10px;
+  color: black;
+  text-decoration: none;
+  font-family: "Poppins", serif;
+  text-align: center;
+}
+
+#checkboxLabel {
+  margin-top: 20px;
+}
+
+button {
+  width: 400px;
+  margin: 20px 25px;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: "Poppins", serif;
+  text-align: center;
+}
+
+button:hover {
+  scale: 1.05;
+  color: var(--color-primary);
+  transition: all 0.5s ease;
+}
