@@ -191,3 +191,28 @@ button:hover {
 #rememberMeCheckbox {
   accent-color: #99c2a2;
 }
+
+@media (max-width: 1050px) {
+  .left {
+    display: none;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media (max-width: 540px) {
+  .login-form {
+    width: 360px;
+  }
+  button {
+    width: 300px;
+  }
+}
+@media (max-width: 390px) {
+  .login-form {
+    width: 250px;
+  }
+  button {
+    width: 170px;
+  }
+}
