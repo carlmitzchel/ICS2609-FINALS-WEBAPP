@@ -23,6 +23,7 @@ dropdowns.forEach((dropdown) => {
   const selected = dropdown.querySelector(".selected");
 
   select.addEventListener("click", () => {
+    alert("WIP: Scroll down while hovering in the dropdown to access other inputs");
     select.classList.toggle("select-clicked");
     caret.classList.toggle("caret-rotate");
     menu.classList.toggle("menu-open");
