@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ca-ching!</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="logo"><a href="#">Ca-ching!</a></div>
+        <ul class="links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Save!</a></li>
+          <li><a href="#">Expenses</a></li>
+          <li><a href="#">About us</a></li>
+        </ul>
+        <a href="#" class="action-btn">Proftile</a>
+        <div class="toggle-btn">
+          <i class="bi bi-list"></i>
+        </div>
+      </div>
+      <div class="dropdown-menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Save!</a></li>
+        <li><a href="#">Expenses</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#" class="action-btn">Profile</a></li>
+      </div>
+    </header>
+
+    <main>
+      <section class="section-1">
+        <div class="container">
+          <div class="text">
+            <h1>Simplify your finances with ease and power.</h1>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus
+              tempora praesentium laborum tenetur quae laudantium ab inventore
+              consequatur corporis magni eveniet voluptates fugiat, accusamus
+              accusantium? Dolore iste ipsam repellendus! Modi fugiat excepturi
+              quis, laudantium voluptates, non ab mollitia vero ad harum odio
+              repudiandae!
+            </p>
+            <form>
+              <div class="button-container">
+                <button type="submit" class="button red">Start Saving</button>
+                <button type="submit" class="button outline">
+                  <a href="#section_2">Explore</a>
+                </button>
+              </div>
+            </form>
+          </div>
+          <div class="img">
+            <img src="/image.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <section class="section-2" id="section_2">
+        <div class="titleActions">
+          <h1>Overview</h1>
+          <div class="dropdown">
+            <div class="select">
+              <span class="selected">Filter</span>
+              <div class="caret"></div>
+            </div>
+            <ul class="menu">
+              <li>Date</li>
+              <li>Price</li>
+              <li>Category</li>
+              <li class="active">Filter</li>
+            </ul>
+          </div>
+          <input type="date" />
+        </div>
+        <div class="boxes">
+          <div class="leftBox">ALERTS (WIP - Backend)</div>
+          <div class="rightBox">Graphs/Charts (WIP - Backend)</div>
+        </div>
+      </section>
+    </main>
+  </body>
+  <script src="main.js"></script>
+</html>
