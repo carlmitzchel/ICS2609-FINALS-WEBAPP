@@ -539,6 +539,8 @@ input[type="date"]:hover {
     padding: 20px;
   }
 
-  .leftBox,.rightBox {
+  .leftBox,
+  .rightBox {
     width: 400px;
+  }
 }
