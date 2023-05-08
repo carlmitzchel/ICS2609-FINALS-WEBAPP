@@ -34,38 +34,25 @@
         <li><a href="#" class="action-btn">Profile</a></li>
       </div>
     </header>
-
-    <main>
-      <section class="section-1">
-        <div class="container">
-          <div class="text">
-            <h1>Simplify your finances with ease and power.</h1>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus
-              tempora praesentium laborum tenetur quae laudantium ab inventore
-              consequatur corporis magni eveniet voluptates fugiat, accusamus
-              accusantium? Dolore iste ipsam repellendus! Modi fugiat excepturi
-              quis, laudantium voluptates, non ab mollitia vero ad harum odio
-              repudiandae!
-            </p>
-            <form>
-              <div class="button-container">
-                <button type="submit" class="button red">Start Saving</button>
-                <button type="submit" class="button outline">
-                  <a href="#section_2">Explore</a>
-                </button>
-              </div>
-            </form>
+    <div class="main-container">
+      <div class="text">
+        <h1>Edit Expenses</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam,
+          fuga! Velit nihil illo eum nostrum cupiditate facilis, voluptatibus
+          qui ea, animi id reiciendis laboriosam necessitatibus obcaecati soluta
+          fugit saepe voluptate!
+        </p>
+      </div>
+      <img src="/Add Expenses/Untitled design (1).png" alt="" />
+      <div class="expenses-form">
+        <form action="/" id="form" name="form" onsubmit="return validate()">
+          <div class="price-form">
+            <label for="price">PRICE</label>
+            <input id="price" name="price" type="text" placeholder="0.00" />
           </div>
-          <div class="img">
-            <img src="/image.png" alt="" />
-          </div>
-        </div>
-      </section>
-      <section class="section-2" id="section_2">
-        <div class="titleActions">
-          <h1>Overview</h1>
           <div class="select">
+            <label class="select-label" for="format">TYPE</label>
             <select name="format" id="format">
               <option selected disabled>Select</option>
               <option value="Food">Food</option>
@@ -74,14 +61,14 @@
               <option value="Savings">Savings</option>
             </select>
           </div>
-          <input type="date" />
-        </div>
-        <div class="boxes">
-          <div class="leftBox">ALERTS (WIP - Backend)</div>
-          <div class="rightBox">Graphs/Charts (WIP - Backend)</div>
-        </div>
-      </section>
-    </main>
+          <div class="date-form">
+            <label for="date">DATE</label>
+            <input type="date" id="date" />
+          </div>
+          <button type="submit">✓</button>
+        </form>
+      </div>
+    </div>
   </body>
   <script src="main.js"></script>
 </html>
