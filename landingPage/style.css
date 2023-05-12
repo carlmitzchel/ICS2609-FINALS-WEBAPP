@@ -299,7 +299,6 @@ input[type="date"] {
 }
 
 input[type="date"]:hover {
-  background-color: #7a918d;
 }
 
 ::-webkit-calendar-picker-indicator {
@@ -314,6 +313,8 @@ input[type="date"]:hover {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  gap: 2em;
+  padding-bottom: 15px;
 }
 
 .titleActions h1 {

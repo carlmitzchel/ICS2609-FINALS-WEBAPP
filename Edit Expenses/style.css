@@ -26,7 +26,7 @@ html {
 
 body {
   height: 100%;
-  background-color: #d0f8a9;
+  background-color: #e1f0d3;
   overflow-y: hidden;
 }
 
@@ -295,7 +295,7 @@ button {
   background-color: #7a918d;
   outline: none;
   border: #7a918d;
-  color: #c5edac;
+  color: #ffffff;
   position: absolute;
   top: 70%;
   left: 92%;
