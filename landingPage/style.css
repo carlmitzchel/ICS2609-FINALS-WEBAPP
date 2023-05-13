@@ -217,14 +217,13 @@ img {
   margin: 20px 10px;
   padding: 10px 20px;
   background-color: #3498db;
-  color: white;
+  color: black;
   border: none;
   border-radius: 100px;
   font-size: 16px;
   cursor: pointer;
   font-family: "Poppins", serif;
 }
-
 .button:first-of-type {
   background-color: #c5edac;
 }
@@ -314,7 +313,9 @@ input[type="date"]:hover {
   justify-content: center;
   align-items: center;
   gap: 2em;
-  padding-bottom: 15px;
+  padding-bottom: 11px;
+  padding: 15px;
+  font-size: 18px;
 }
 
 .titleActions h1 {

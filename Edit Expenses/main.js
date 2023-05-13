@@ -9,10 +9,6 @@ toggleBtn.onclick = function () {
   toggleBtnIcon.classList = isOpen ? "bi bi-x" : "bi bi-list";
 };
 
-// function btnClicked() {
-//   document.getElementById("section_2").scrollIntoView({ behavior: "smooth" });
-// }
-
 const dropdowns = document.querySelectorAll(".dropdown");
 
 dropdowns.forEach((dropdown) => {
