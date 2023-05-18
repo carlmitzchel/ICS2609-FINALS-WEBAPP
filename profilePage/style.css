@@ -402,3 +402,24 @@ input:disabled {
     font-size: 0.8em;
   }
 }
+
+.logout-container {
+  margin-top: 10px;
+}
+
+.logout {
+  display: inline-block;
+  background-color: #c5edac;
+  outline: none;
+  border: #7a918d;
+  color: rgb(0, 0, 0);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 100px;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: transform 300ms ease-out;
+}
