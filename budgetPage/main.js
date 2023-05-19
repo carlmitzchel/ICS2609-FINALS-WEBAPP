@@ -63,6 +63,7 @@ const calendar = document.querySelector(".calendar"),
   addEventSubmit = document.querySelector(".add-event-btn "),
   objDiv = document.getElementById(".add-event-wrapper");
 
+//instantiation of current date
 let today = new Date();
 let activeDay;
 let month = today.getMonth();
