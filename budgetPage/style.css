@@ -351,9 +351,6 @@ tr > th {
   vertical-align: top;
 }
 @media screen and (max-width: 767px) {
-  .tg {
-    width: auto !important;
-  }
   .tg col {
     width: auto !important;
   }
@@ -911,4 +908,76 @@ tr > th {
 }
 .credits a:hover {
   text-decoration: underline;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 1000px) {
+  .main-container {
+    flex-direction: column;
+    margin: 0;
+
+    padding: 0;
+    padding-top: 100px;
+    width: 100%;
+    overflow: scroll;
+    height: 100vh;
+  }
+
+  .left-container {
+    width: 100%;
+  }
+
+  .right-container {
+    width: 100%;
+  }
+
+  h1,
+  h3,
+  h2 {
+    font-size: 0.8em;
+  }
+
+  .wave {
+    width: 40px;
+  }
+
+  .wings {
+    display: none;
+  }
+
+  .right-container {
+    overflow: scroll;
+  }
+
+  .budget {
+    position: sticky;
+    margin-top: 5px;
+    top: 80%;
+    left: 90%;
+  }
+
+  html {
+    overflow-x: hidden;
+  }
+
+  .right .today-date {
+    height: 100px;
+  }
+
+  .upper-two,
+  .upper-one {
+    padding: 10px;
+  }
+}
+@media only screen and (min-width: 720px) and (max-width: 1000px) {
+  .main-container {
+    padding: 5%;
+    padding-top: 100px;
+  }
+
+  h1,
+  h3 {
+    font-size: 1.5em;
+    display: inline;
+    clear: none;
+  }
 }

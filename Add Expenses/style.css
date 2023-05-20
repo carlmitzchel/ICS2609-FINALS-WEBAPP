@@ -235,12 +235,12 @@ label {
 
 input[type="date"] {
   background-color: #7a918d;
-  padding: 0 15px;
+  padding: 5px 20px;
   top: 50%;
   left: 50%;
   font-family: "Poppins", sans-serif;
   color: #fff;
-  font-size: 18px;
+  font-size: 16px;
   border: none;
   outline: none;
   border-radius: 100px;
@@ -553,7 +553,7 @@ img {
 
 @media (max-width: 430px) {
   button {
-    left: 83%;
+    left: 80%;
   }
 
   .text h1 {
@@ -562,5 +562,9 @@ img {
 
   .text p {
     font-size: 0.8em;
+  }
+
+  label,
+  input {
   }
 }
